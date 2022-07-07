@@ -14,3 +14,7 @@
 //     // this.inventory.length ? this.inventory : false;
 //     // why didn't this work?
 // }
+
+
+// const arra=[1,2,3,4];
+// console.log(arra.splice(2,1)[0])
