@@ -1,5 +1,5 @@
 const Enemy = require("../lib/Enemy");
-const Potion=require("../lib/Potion");
+const Potion = require("../lib/Potion");
 
 jest.mock("../lib/Potion");
 
@@ -44,7 +44,7 @@ test("gets enemy's attack value", () => {
 });
 
 test("gets a description of the enemy", () => {
-    const enemy=new Enemy("goblin", "sword");
+    const enemy = new Enemy("goblin", "sword");
 
     expect(enemy.getDescription()).toEqual(expect.stringContaining("goblin"));
     expect(enemy.getDescription()).toEqual(expect.stringContaining("sword"));
